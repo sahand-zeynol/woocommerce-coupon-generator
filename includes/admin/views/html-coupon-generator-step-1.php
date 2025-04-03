@@ -35,9 +35,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 								'post_status' => 'draft',
 								'post_title'  => 'temp_generator_coupon',
 							) );
-							global $thepostid;
+							global $thepostid, $post;
 							$thepostid = $temp_coupon;
-							WC_Meta_Box_Coupon_Data::output( (object) array( 'ID' => null ) );
+							$post      = get_post( $thepostid );
+							WC_Meta_Box_Coupon_Data::output( (object) array( 'ID' => $temp_coupon ) );
 							wp_delete_post( $temp_coupon, true );
 
 						?></div>
