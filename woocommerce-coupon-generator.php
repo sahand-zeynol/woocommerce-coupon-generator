@@ -50,6 +50,11 @@ class WooCommerce_Coupon_Generator {
 	 */
 	private static $instance;
 
+	/**
+	 * Admin class.
+	 * @var WCCG_Admin
+	 */
+	public $admin = null;
 
 	/**
 	 * Construct.
