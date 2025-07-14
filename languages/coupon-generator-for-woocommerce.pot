@@ -1,0 +1,140 @@
+# Copyright (C) 2025 Jeroen Sormani
+# This file is distributed under the same license as the WooCommerce Coupon Generator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Coupon Generator 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-coupon-generator\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-30T19:36:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: coupon-generator-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-coupon-generator.php
+#: includes/admin/class-wccg-admin.php:98
+#: includes/admin/views/html-coupon-generator-step-0.php:16
+msgid "WooCommerce Coupon Generator"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: woocommerce-coupon-generator.php
+msgid "https://jeroensormani.com/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-coupon-generator.php
+msgid "Easily generate <strong>MILLIONS</strong> of unique coupons for your online store. Use all the coupon settings you are familiar with!"
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-coupon-generator.php
+msgid "Jeroen Sormani"
+msgstr ""
+
+#: includes/admin/class-wccg-admin.php:98
+msgid "Coupon generator"
+msgstr ""
+
+#: includes/admin/class-wccg-admin.php:152
+msgid "Start generating coupons"
+msgstr ""
+
+#: includes/admin/class-wccg-admin.php:173
+msgid "More WooCommerce plugins by Ace Plugins"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:19
+#: includes/admin/views/html-coupon-generator-step-0.php:31
+msgid "0. Introduction"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:20
+msgid "1. Coupon options"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:21
+msgid "2. Generator options"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:22
+#: includes/admin/views/html-coupon-generator-step-0.php:40
+msgid "3. Generating coupons"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:27
+msgid "Hi!"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:28
+msgid "Thank you for using WooCommerce Coupon Generator. To use the coupon generator you have to go through the following steps."
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:32
+msgid "You are here now"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:34
+msgid "1. Coupon settings"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:35
+msgid "Here you can set the coupon settings you're used to set in the default WooCommerce coupon settings."
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:37
+msgid "2. Generator settings"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:38
+msgid "Set options like the amount of coupons you want to generate."
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:41
+msgid "This is the step where the coupons are actually generated."
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-0.php:48
+#: includes/admin/views/html-coupon-generator-step-1.php:51
+#: includes/admin/views/html-coupon-generator-step-2.php:47
+msgid "Continue to the next step"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-2.php:20
+msgid "Generator options"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-2.php:28
+msgid "Number of coupons"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-2.php:30
+msgid "Number of coupons to generate in this batch"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-3.php:21
+msgid "Generating coupons"
+msgstr ""
+
+#: includes/admin/views/html-coupon-generator-step-3.php:44
+msgid "Export as txt file"
+msgstr ""
+
+#: includes/admin/wccg-core-functions.php:191
+#, php-format
+msgid "Coupon generation completed! Created %1$d coupons."
+msgstr ""
+
+#: includes/admin/wccg-core-functions.php:197
+#, php-format
+msgid "%1$s coupons created in %2$s seconds"
+msgstr ""
+
+#: includes/admin/wccg-core-functions.php:224
+msgid "This link is expired"
+msgstr ""
